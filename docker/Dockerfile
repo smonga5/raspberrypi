@@ -101,7 +101,7 @@ ARG CACHEBUST=1
 
 ######################################### Viper Producer directory
 
-RUN git clone --depth 1 https://github.com/smonga5/transactionalmachinelearning.git
+RUN git clone --depth 1 https://github.com/smonga5/raspberrypi
 
 RUN cp -R transactionalmachinelearning Viper-produce/transactionalmachinelearning
 
