@@ -103,8 +103,7 @@ ARG CACHEBUST=1
 
 RUN git clone --depth 1 https://github.com/smonga5/raspberrypi
 
-ls -l transactionalmachinelearning 
-ls -l Viper-produce/raspberrypi
+ls -l transactionalmachinelearning Viper-produce/raspberrypi
 chmod -R 755 transactionalmachinelearning 
 
 RUN cp -R transactionalmachinelearning Viper-produce/transactionalmachinelearning
